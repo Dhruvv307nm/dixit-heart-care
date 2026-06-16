@@ -1,0 +1,6 @@
+{
+  "name": "Dixit Heart Care",
+  "description": "Premium cardiovascular diagnostic center and appointment request portal providing advanced diagnostics and transparent pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
