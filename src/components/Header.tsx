@@ -32,11 +32,10 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
   };
 
   return (
-    <header className={`sticky top-6 z-50 max-w-[1240px] w-[calc(100%-2.5rem)] mx-auto border border-[#9E1B1B]/15 rounded-[28px] transition-all duration-700 ease-[var(--ease-premium)] ${
-      scrolled 
-        ? 'bg-[#FCFAF5]/90 backdrop-blur-xl shadow-premium-md py-0' 
-        : 'bg-[#FCFAF5]/60 backdrop-blur-md shadow-[0_20px_50px_rgba(142,112,108,0.04)] py-1'
-    }`}>
+    <header className={`sticky top-6 z-50 max-w-[1240px] w-[calc(100%-2.5rem)] mx-auto border border-[#9E1B1B]/15 rounded-[28px] transition-all duration-700 ease-[var(--ease-premium)] ${scrolled
+      ? 'bg-[#FCFAF5]/90 backdrop-blur-xl shadow-premium-md py-0'
+      : 'bg-[#FCFAF5]/60 backdrop-blur-md shadow-[0_20px_50px_rgba(142,112,108,0.04)] py-1'
+      }`}>
       {/* Cardiology-inspired Fine-line Art Motif at the bottom edge of sticky header */}
       <div className="absolute bottom-0 left-6 right-6 h-[1px] overflow-hidden pointer-events-none select-none">
         <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 1000 10" style={{ transform: "translateY(4.5px)" }}>
@@ -71,7 +70,7 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
           <span className="font-display tracking-tight font-semibold not-italic text-left leading-none text-[#1B365D] text-[26px]">
             Dixit <span className="font-display text-[11px] uppercase tracking-[0.25em] font-medium text-[#9E1B1B] block mt-1.5 text-left">HEART CARE</span>
           </span>
-         </button>
+        </button>
 
         {/* Desktop Navigation Links with sliding background/underline layout */}
         <ul className="hidden md:flex items-center space-x-2.5 bg-surface-container-low/30 px-3 py-1.5 rounded-full border border-outline-variant/10" role="menubar">
@@ -82,9 +81,8 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
                 <button
                   role="menuitem"
                   onClick={() => handleNavClick(item.id)}
-                  className={`relative z-10 px-4.5 py-2.5 font-sans text-[10px] font-extrabold tracking-[0.24em] uppercase transition-all duration-300 rounded-full flex items-center gap-1.5 ${
-                    isActive ? 'text-[#9E1B1B]' : 'text-on-surface-variant/70 hover:text-primary'
-                  }`}
+                  className={`relative z-10 px-4.5 py-2.5 font-sans text-[10px] font-extrabold tracking-[0.24em] uppercase transition-all duration-300 rounded-full flex items-center gap-1.5 ${isActive ? 'text-[#9E1B1B]' : 'text-on-surface-variant/70 hover:text-primary'
+                    }`}
                 >
                   <span className="opacity-40 text-[9px] font-mono font-medium">0{index + 1}</span>
                   {item.label}
@@ -110,14 +108,14 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
 
         {/* Book Appointment CTA Button */}
         <div className="hidden md:block">
-            <button
-              onClick={(e) => {
-                e.preventDefault();
-                handleNavClick('contact');
-              }}
-              className="flex items-center gap-2.5 bg-[#1B365D] text-[#FCFAF5] font-sans text-[10px] uppercase tracking-[0.24em] font-extrabold px-7 py-4 rounded-none md:rounded-tr-[14px] md:rounded-bl-[14px] hover:bg-[#9E1B1B] hover:text-white transition-all duration-300 shadow-premium-sm hover:shadow-premium-md hover:-translate-y-0.5 active:scale-95 cursor-pointer relative z-50"
-              id="header-cta"
-            >
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavClick('contact');
+            }}
+            className="flex items-center gap-2.5 bg-[#1B365D] text-[#FCFAF5] font-sans text-[10px] uppercase tracking-[0.24em] font-extrabold px-7 py-4 rounded-none md:rounded-tr-[14px] md:rounded-bl-[14px] hover:bg-[#9E1B1B] hover:text-white transition-all duration-300 shadow-premium-sm hover:shadow-premium-md hover:-translate-y-0.5 active:scale-95 cursor-pointer relative z-50"
+            id="header-cta"
+          >
             <Calendar size={12.5} className="stroke-[2.5]" />
             Request Visit
           </button>
@@ -173,11 +171,10 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
                         <button
                           role="menuitem"
                           onClick={() => handleNavClick(item.id)}
-                          className={`w-full flex items-center justify-between text-left p-3 font-sans text-[16px] font-semibold tracking-wide uppercase rounded-lg border transition-all ${
-                            isActive
-                              ? 'bg-primary/5 border-primary/20 text-primary font-bold'
-                              : 'border-transparent text-on-surface-variant hover:bg-surface-container-low hover:text-primary'
-                          }`}
+                          className={`w-full flex items-center justify-between text-left p-3 font-sans text-[16px] font-semibold tracking-wide uppercase rounded-lg border transition-all ${isActive
+                            ? 'bg-primary/5 border-primary/20 text-primary font-bold'
+                            : 'border-transparent text-on-surface-variant hover:bg-surface-container-low hover:text-primary'
+                            }`}
                         >
                           <span className="flex items-center gap-2">
                             {item.id === 'home' && <Heart size={18} />}
@@ -203,7 +200,7 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
                   Book Appointment
                 </button>
                 <div className="text-center font-sans text-xs text-on-surface-variant">
-                  Emergency Support: <span className="font-semibold text-error">+91 98765 43210</span>
+                  Emergency Support: <span className="font-semibold text-error">+91 7218692294</span>
                 </div>
               </div>
             </motion.div>

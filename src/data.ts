@@ -115,8 +115,8 @@ export const TIMINGS: ClinicTiming[] = [
 
 export const CONTACT_INFO = {
   address: 'Dixit Heart Care Centre, Radhika Road, Satara, Maharashtra 415002',
-  phoneNumbers: ['+91 20 2555 0123', '+91 98765 43210'],
-  emergencyLine: '+91 98765 43210',
-  whatsappNumber: '+919876543210',
+  phoneNumbers: ['02162 233266', '+917218692294'],
+  emergencyLine: '+917218692294',
+  whatsappNumber: '+917218692294',
   mapsLink: 'https://www.google.com/maps/search/?api=1&query=Dixit+Heart+Care+Centre,+Radhika+Road,+Satara'
 };
