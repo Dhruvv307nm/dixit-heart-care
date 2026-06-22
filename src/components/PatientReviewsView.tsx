@@ -35,7 +35,7 @@ const DEFAULT_REVIEWS: Review[] = [
     id: "rev-2",
     author: "Meera Deshpande",
     role: "Cardiac Care Patient",
-    text: "Dr. Rohit Dixit's consultation for my father's cardiac wellness was outstanding. He listens with immense patience, clears all anxieties, and provides extremely practical advice on lifestyle modification. His clinical expertise as a gold medalist cardiologist is evident, but his empathy is what truly shines.",
+    text: "Dr. Rohit Dixit's consultation for my father's cardiac wellness was outstanding. He listens with immense patience, clears all anxieties, and provides extremely practical advice on lifestyle modification. His clinical expertise as a specialist cardiologist is evident, but his empathy is what truly shines.",
     rating: 5,
     initials: "MD"
   },
@@ -71,8 +71,8 @@ const FAQS: FAQItem[] = [
     answer: "Dixit Heart Care Centre is premiumly situated at Radhika Road, Satara, Maharashtra 415002. It is in the heart of Satara's central area, highly accessible from major roads. Please consult our Map layout in the contact view or footer for exact physical steps."
   },
   {
-    question: "Who are the primary consulting doctors at Dixit Heart Care Centre?",
-    answer: "Our medical crew rests on the generation-led excellence of the esteemed Dixit family: Dr. Shirish Dixit (highly respected senior cardiologist with decades of general diagnostic practice), Dr. Alka Dixit, and Dr. Rohit Dixit (Gold Medalist Cardiologist bringing cutting-edge interventional and non-invasive science). Every doctor brings rich, empathetic ethics to cardiac diagnostic routines."
+    question: "Which doctors will be consulting me?",
+    answer: "Our medical crew rests on the generation-led excellence of the esteemed Dixit family: Dr. Shirish Dixit (highly respected senior cardiologist with decades of general diagnostic practice), Dr. Alka Dixit, and Dr. Rohit Dixit (Consultant Interventional Cardiologist bringing cutting-edge interventional and non-invasive science). Every doctor brings rich, empathetic ethics to cardiac diagnostic routines."
   },
   {
     question: "Does Dixit Heart Care Centre prescribe excessive healthcare tests or commercially backed medicine?",

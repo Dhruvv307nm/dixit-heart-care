@@ -403,17 +403,17 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   <Award size={18} className="stroke-[2.5]" />
                   <span className="text-[10px] uppercase font-bold tracking-[0.2em] text-[#3F3F3F]/60">Clinical Legacy</span>
                 </div>
-                <div className="font-serif text-[28px] text-on-surface font-extrabold tracking-tight">15+ Years</div>
-                <p className="text-[12.5px] font-sans text-on-surface-variant leading-relaxed">Of high-precision critical interventional cardiological mastery.</p>
+                <div className="font-serif text-[28px] text-on-surface font-extrabold tracking-tight">Expert Care</div>
+                <p className="text-[12.5px] font-sans text-on-surface-variant leading-relaxed">High-precision cardiovascular diagnostics and personalized treatment.</p>
               </div>
 
               <div className="space-y-2.5 text-left">
                 <div className="flex items-center gap-2.5 text-tertiary">
                   <Activity size={18} className="stroke-[2.5]" />
-                  <span className="text-[10px] uppercase font-bold tracking-[0.2em] text-[#3F3F3F]/60">Hearts Guarded</span>
+                  <span className="text-[10px] uppercase font-bold tracking-[0.2em] text-[#3F3F3F]/60">Patient Trust</span>
                 </div>
-                <div className="font-serif text-[28px] text-on-surface font-extrabold tracking-tight">10,000+ Cases</div>
-                <p className="text-[12.5px] font-sans text-on-surface-variant leading-relaxed">Protected under strict international evidence-based standards.</p>
+                <div className="font-serif text-[28px] text-on-surface font-extrabold tracking-tight">Dedicated Service</div>
+                <p className="text-[12.5px] font-sans text-on-surface-variant leading-relaxed">Committed to ethical, evidence-based standards and genuine healing.</p>
               </div>
             </motion.div>
           </div>
@@ -647,8 +647,8 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   
                   {/* Miniature Floating Badge */}
                   <div className="absolute -bottom-4 -right-4 bg-primary text-white py-4 px-7 rounded-[22px] shadow-2xl border border-white/20">
-                    <span className="text-[10px] uppercase font-bold tracking-[0.25em] block leading-none text-[#F3EFE3]">GOLD MEDALIST</span>
-                    <span className="font-serif text-[14px] font-bold mt-1 block text-white leading-none">DNB Cardiology</span>
+                    <span className="text-[10px] uppercase font-bold tracking-[0.25em] block leading-none text-[#F3EFE3]">HEART & VASCULAR SPECIALIST</span>
+                    <span className="font-serif text-[14px] font-bold mt-1 block text-white leading-none">MBBS, MD, DNB</span>
                   </div>
                 </div>
               </motion.div>
@@ -660,39 +660,39 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 <div className="flex items-center gap-3">
                   <span className="w-12 h-[1px] bg-tertiary/45" />
                   <span className="text-tertiary font-sans text-[11px] uppercase tracking-[0.35em] font-extrabold block">
-                    Lead Clinical Investigator
+                    Consultant Interventional Cardiologist
                   </span>
                 </div>
                 <h2 className="font-serif text-[48px] md:text-[62px] lg:text-[72px] font-black text-on-surface leading-[1.02] tracking-tight">
-                  Dr. Rohit Dixit <br />
-                  <span className="text-[#1B365D] font-serif text-[42px] md:text-[52px] font-medium italic">MD, DNB, FACC</span>
+                  Dr. Rohit Prakash Dixit <br />
+                  <span className="text-[#1B365D] font-serif text-[42px] md:text-[52px] font-medium italic">MBBS, MD, DNB</span>
                 </h2>
                 <div className="w-24 h-[1.5px] bg-[#1B365D]/20 mt-8" />
               </div>
 
               <div className="space-y-7 font-sans text-on-surface-variant text-[15px] md:text-[16px] leading-relaxed max-w-xl">
                 <p className="font-medium text-on-surface text-lg md:text-[20px] leading-relaxed">
-                  With over 15 years of interventional cardiology mastery, Dr. Dixit coordinates critical care pathways with gold-medalist academic prestige.
+                  Dr. Rohit Prakash Dixit is a Consultant Interventional Cardiologist dedicated to providing expert, patient-centered cardiovascular care in Satara.
                 </p>
                 <p className="text-[#3F3F3F]/85">
-                  As an elected Fellow of the American College of Cardiology (FACC) and a dual Diplomate of the National Board (DNB Cardiology &amp; Medicine), his clinical authority addresses acute coronary challenges with personalized, conservative diagnostics.
+                  With extensive training in internal medicine and cardiology, his practice focuses on thorough clinical evaluation, ethical diagnostic methods, and evidence-based treatments for comprehensive heart and vascular health.
                 </p>
               </div>
 
               {/* Styled Credential list instead of boring paragraph text */}
               <div className="grid grid-cols-2 gap-8 max-w-lg border-t border-outline-variant/80 pt-10">
                 <div className="flex gap-4">
-                  <div className="text-tertiary mt-1.5"><Trophy size={18} /></div>
+                  <div className="text-tertiary mt-1.5"><GraduationCap size={18} /></div>
                   <div>
-                    <h5 className="font-sans text-[12px] font-bold uppercase tracking-wider text-on-surface mb-1">Academic Laurels</h5>
-                    <p className="font-sans text-xs text-on-surface-variant/80">Gold Medalist in advanced coronary modules</p>
+                    <h5 className="font-sans text-[12px] font-bold uppercase tracking-wider text-on-surface mb-1">Core Qualifications</h5>
+                    <p className="font-sans text-xs text-on-surface-variant/80">MBBS, MD (Medicine)</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="text-tertiary mt-1.5"><GraduationCap size={18} /></div>
+                  <div className="text-tertiary mt-1.5"><Heart size={18} /></div>
                   <div>
-                    <h5 className="font-sans text-[12px] font-bold uppercase tracking-wider text-on-surface mb-1">Global Fellowship</h5>
-                    <p className="font-sans text-xs text-on-surface-variant/80">Fellow of the American College of Cardiology</p>
+                    <h5 className="font-sans text-[12px] font-bold uppercase tracking-wider text-on-surface mb-1">Specialization</h5>
+                    <p className="font-sans text-xs text-on-surface-variant/80">DNB (Cardiology)</p>
                   </div>
                 </div>
               </div>
@@ -927,7 +927,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 initials: "AK"
               },
               {
-                text: "Dr. Rohit Dixit's consultation for my father's cardiac wellness was outstanding. He listens with immense patience, clears all anxieties, and provides extremely practical advice on lifestyle modification. His clinical expertise as a gold medalist cardiologist is evident, but his empathy is what truly shines.",
+                text: "Dr. Rohit Dixit's consultation for my father's cardiac wellness was outstanding. He listens with immense patience, clears all anxieties, and provides extremely practical advice on lifestyle modification. His clinical expertise as a specialist cardiologist is evident, but his empathy is what truly shines.",
                 author: "Meera Deshpande",
                 role: "Cardiac Care Patient",
                 initials: "MD"
@@ -1003,10 +1003,10 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 <div className="flex justify-between items-start pb-4 border-b border-outline-variant/20">
                   <div>
                     <h3 className="font-serif text-[28px] font-bold text-on-surface select-none">
-                      Dr. Rohit Dixit
+                      Dr. Rohit Prakash Dixit
                     </h3>
                     <p className="font-sans text-xs uppercase tracking-widest text-primary font-bold">
-                      Full Clinical Profile
+                      Consultant Interventional Cardiologist
                     </p>
                   </div>
                   <button 
@@ -1025,22 +1025,22 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                       <GraduationCap size={22} className="text-primary" /> Education &amp; Training
                     </h4>
                     <p className="font-sans text-body-md leading-relaxed text-on-surface-variant">
-                      Dr. Dixit completed his high-end clinical specialty in leading gold standard environments:
+                      Dr. Rohit Prakash Dixit completed his comprehensive medical education and specialized training:
                     </p>
                     <ul className="list-disc pl-5 space-y-2 text-[14px] font-sans text-on-surface-variant/90 leading-relaxed">
-                      <li><strong>DNB Cardiology (Gold Medalist)</strong> – Honored for clinical and theoretical excellence by National Examinations.</li>
-                      <li><strong>FACC</strong> – Fellowship of the American College of Cardiology.</li>
-                      <li>Consulting &amp; International Interventional Clinician with numerous certifications in intravascular ultrasound, optical coherence tomography and complex pacing.</li>
+                      <li><strong>MBBS</strong> – Fundamental medical training and foundation.</li>
+                      <li><strong>MD (Medicine)</strong> – Advanced study and specialization in internal medicine.</li>
+                      <li><strong>DNB (Cardiology)</strong> – Diplomate of National Board certification in specialized cardiac care.</li>
                     </ul>
                   </div>
 
                   {/* Career achievements */}
                   <div className="space-y-3">
                     <h4 className="font-serif text-[20px] md:text-[22px] font-extrabold text-on-surface flex items-center gap-2.5">
-                      <Trophy size={22} className="text-primary" /> Prestigious Accolades
+                      <Stethoscope size={22} className="text-primary" /> Clinical Expertise
                     </h4>
                     <p className="text-[14px] font-sans text-on-surface-variant/90 leading-relaxed">
-                      Pioneered numerous low-radiation coronary angiography setups, established a community outreach diagnostic checkup framework throughout Maharashtra, and presented state-level research on coronary outcomes.
+                      As a Consultant Interventional Cardiologist, Dr. Dixit provides expert care for a wide spectrum of cardiovascular conditions. He emphasizes accurate diagnostics, evidence-based treatments, and patient well-being, serving the Satara community with dedication and ethical practice.
                     </p>
                   </div>
 
