@@ -150,7 +150,7 @@ Please confirm my appointment. Thank you!`;
           </h1>
           <div className="w-20 h-[1.5px] bg-[#1B365D]/20 mt-3" />
           <p className="font-sans text-[16px] sm:text-[18px] text-[#3F3F3F]/85 leading-relaxed pt-2">
-            Initiate your priority cardiac diagnostics. Visit our clinical sanctuary in Radhika Road, Satara—experience diagnostic precision aligned with peace of mind.
+            Initiate your priority cardiac diagnostics. Visit our clinical sanctuary in Radhika Road, Satara, Maharashtra—experience diagnostic precision aligned with peace of mind.
           </p>
         </div>
 

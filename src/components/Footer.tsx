@@ -21,7 +21,7 @@ export default function Footer({ onViewChange }: FooterProps) {
             Dixit Heart Care
           </button>
           <p className="font-sans text-[11px] text-on-surface-variant font-bold uppercase tracking-[0.1em] select-none">
-            Excellence in Cardiac Medicine.
+            Excellence in Cardiac Medicine, Satara, Maharashtra.
           </p>
         </div>
 

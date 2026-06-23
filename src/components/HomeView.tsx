@@ -351,7 +351,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                   className="block font-serif italic text-[32px] sm:text-[44px] lg:text-[52px] font-normal text-on-surface-variant mt-2"
                 >
-                  Expert care, close to home.
+                  Expert care in Satara, Maharashtra.
                 </motion.span>
               </h1>
 
@@ -361,7 +361,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 transition={{ duration: 0.9, delay: 0.4 }}
                 className="font-sans text-[17px] sm:text-[18px] text-[#3F3F3F]/85 max-w-xl leading-relaxed font-normal"
               >
-                Consult Dr. Rohit Dixit for trusted cardiac care, advanced diagnostics, and personalized treatment.
+                Consult Dr. Rohit Dixit for trusted cardiac care, advanced diagnostics, and personalized treatment in Satara, Maharashtra.
               </motion.p>
             </div>
 
