@@ -544,7 +544,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 </span>
               </div>
               <h2 className="font-serif text-[46px] md:text-[62px] lg:text-[72px] font-black text-on-surface leading-[1.02] tracking-[-0.03em]">
-                The Luxury Exhibition
+                Advanced Cardiac Care Center
               </h2>
             </div>
             <div className="md:col-span-5 text-left md:pb-2">
