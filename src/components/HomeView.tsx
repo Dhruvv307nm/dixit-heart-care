@@ -648,7 +648,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   {/* Miniature Floating Badge */}
                   <div className="absolute -bottom-4 -right-4 bg-primary text-white py-4 px-7 rounded-[22px] shadow-2xl border border-white/20">
                     <span className="text-[10px] uppercase font-bold tracking-[0.25em] block leading-none text-[#F3EFE3]">HEART & VASCULAR SPECIALIST</span>
-                    <span className="font-serif text-[14px] font-bold mt-1 block text-white leading-none">MBBS, MD, DNB</span>
+                    <span className="font-serif text-[14px] font-bold mt-1 block text-white leading-none">MBBS, DNB, FACC, FSCAI</span>
                   </div>
                 </div>
               </motion.div>
@@ -665,7 +665,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 </div>
                 <h2 className="font-serif text-[48px] md:text-[62px] lg:text-[72px] font-black text-on-surface leading-[1.02] tracking-tight">
                   Dr. Rohit Prakash Dixit <br />
-                  <span className="text-[#1B365D] font-serif text-[42px] md:text-[52px] font-medium italic">MBBS, MD, DNB</span>
+                  <span className="text-[#1B365D] font-serif text-[42px] md:text-[52px] font-medium italic">MBBS, DNB (Medicine), DNB (Cardiology)</span>
                 </h2>
                 <div className="w-24 h-[1.5px] bg-[#1B365D]/20 mt-8" />
               </div>
@@ -685,14 +685,14 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   <div className="text-tertiary mt-1.5"><GraduationCap size={18} /></div>
                   <div>
                     <h5 className="font-sans text-[12px] font-bold uppercase tracking-wider text-on-surface mb-1">Core Qualifications</h5>
-                    <p className="font-sans text-xs text-on-surface-variant/80">MBBS, MD (Medicine)</p>
+                    <p className="font-sans text-xs text-on-surface-variant/80">MBBS, DNB (Medicine)</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="text-tertiary mt-1.5"><Heart size={18} /></div>
                   <div>
                     <h5 className="font-sans text-[12px] font-bold uppercase tracking-wider text-on-surface mb-1">Specialization</h5>
-                    <p className="font-sans text-xs text-on-surface-variant/80">DNB (Cardiology)</p>
+                    <p className="font-sans text-xs text-on-surface-variant/80">DNB (Cardiology) (Gold Medalist), FACC, FSCAI, CRCDM</p>
                   </div>
                 </div>
               </div>
@@ -1029,8 +1029,9 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     </p>
                     <ul className="list-disc pl-5 space-y-2 text-[14px] font-sans text-on-surface-variant/90 leading-relaxed">
                       <li><strong>MBBS</strong> – Fundamental medical training and foundation.</li>
-                      <li><strong>MD (Medicine)</strong> – Advanced study and specialization in internal medicine.</li>
-                      <li><strong>DNB (Cardiology)</strong> – Diplomate of National Board certification in specialized cardiac care.</li>
+                      <li><strong>DNB (Medicine)</strong> – Advanced study and specialization in internal medicine.</li>
+                      <li><strong>DNB (Cardiology) (Gold Medalist)</strong> – Diplomate of National Board certification in specialized cardiac care, awarded with distinction.</li>
+                      <li><strong>FACC, FSCAI, CRCDM</strong> – Prestigious fellowships reflecting global standards in cardiovascular and interventional care.</li>
                     </ul>
                   </div>
 
