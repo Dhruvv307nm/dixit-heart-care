@@ -443,7 +443,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     <img 
                       alt="Clinic Treatment & Lab Equipment" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm_JX8AUlIsoUBcAes_KJYYPs-oUNLBKUHReNvV7JgrRoN7jbwHRBRf7-DZEp6Bgs2SvUZMEA2B8tZmdXjAayXFuFUPEfOob8C1NDDjP5Fy4DhrRf4LQRfqbJdrcrtNpx4eCBVautdAG-Q_ejApsKFoDWRIOmKdv3JFWOaAyAs4wx0OGwgzPyftaYiKWwK3Htl4ryudlwzKu8gvyjYr80mPbu9SScVS-vGWJybQzI-KRBCvt1vVbY0QUExEIH64ylkXFswKXDaWSo"
+                      src="/clinic-equipment.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
@@ -477,7 +477,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     <img 
                       alt="Clinic Front Reception Area" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOyErOJ8iHxVSG4nQB1KkOFY5Z2KctGToWwUbkMUgsp995gQOfUvw_HjVsRWDTe3BDWW9n98uRZIaTySBYbQ5Ioa5UAxJFECoHj1EAZa41VaMyPPhJwf844skQYIsBuLiXm3Gp8rVhlEvKqvfEO9GZyJbUa3_BeUHt4JZRGolljxW6b7hS51G2Y1dSSdnVVEjfHrQ4OMHrLRrqneD7R4YL-eqItsgtFIkh6RFNhev-lO4EsW1MtmB7-0H1rbzyFqVASqV-9TvNiYM"
+                      src="/clinic-reception.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
@@ -511,7 +511,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     <img 
                       alt="Cardiac Stress Test & Evaluation Lab" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="/src/assets/images/regenerated_image_1781532672010.jpg"
+                      src="/schiller-stress-lab.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
