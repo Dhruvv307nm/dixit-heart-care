@@ -64,11 +64,11 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
           className="font-serif text-[24px] tracking-wide text-primary flex items-center gap-4.5 hover:opacity-95 transition-all outline-none focus-visible:ring-2 focus-visible:ring-[#9E1B1B] rounded-xl p-1"
           id="brand-logo"
         >
-          <div className="h-28 w-28 sm:h-32 sm:w-32 md:h-[11rem] md:w-[11rem] flex items-center justify-center shrink-0 relative group -ml-2">
+          <div className="h-16 w-16 sm:h-20 sm:w-20 md:h-[11rem] md:w-[11rem] flex items-center justify-center shrink-0 relative group -ml-1 md:-ml-2">
             <img src="/dixit-logo.png" alt="Dixit Heart Care Logo" className="w-[140%] h-[140%] max-w-[140%] max-h-[140%] object-contain pointer-events-none select-none relative z-10 transition-transform duration-300 group-hover:scale-110" />
           </div>
-          <span className="font-display uppercase tracking-widest font-bold not-italic text-left leading-[0.85] text-[#1B365D] text-[30px] md:text-[38px] pt-1" style={{ textShadow: "0px 4px 15px rgba(27,54,93,0.15)" }}>
-            DIXIT <span className="font-sans text-[10.5px] uppercase tracking-[0.45em] font-black text-[#9E1B1B] block mt-2 text-left opacity-90">HEART CARE</span>
+          <span className="font-display uppercase tracking-widest font-bold not-italic text-left leading-[0.85] text-[#1B365D] text-[20px] sm:text-[24px] md:text-[38px] pt-1" style={{ textShadow: "0px 4px 15px rgba(27,54,93,0.15)" }}>
+            DIXIT <span className="font-sans text-[8px] sm:text-[9px] md:text-[10.5px] uppercase tracking-[0.45em] font-black text-[#9E1B1B] block mt-1.5 md:mt-2 text-left opacity-90">HEART CARE</span>
           </span>
         </button>
 
@@ -150,7 +150,7 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'tween', duration: 0.3 }}
-              className="fixed top-0 right-0 h-full w-[280px] bg-background shadow-2xl z-50 md:hidden p-6 flex flex-col justify-between"
+              className="fixed top-0 right-0 h-full w-[300px] bg-[#FCFAF5] shadow-2xl z-50 md:hidden p-6 flex flex-col justify-between overflow-y-auto"
             >
               <div className="space-y-8">
                 <div className="flex justify-between items-center pb-4 border-b border-outline-variant/20">
