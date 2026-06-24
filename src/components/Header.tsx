@@ -67,8 +67,8 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
           <div className="h-28 w-28 sm:h-32 sm:w-32 md:h-[11rem] md:w-[11rem] flex items-center justify-center shrink-0 relative group -ml-2">
             <img src="/dixit-logo.png" alt="Dixit Heart Care Logo" className="w-[140%] h-[140%] max-w-[140%] max-h-[140%] object-contain pointer-events-none select-none relative z-10 transition-transform duration-300 group-hover:scale-110" />
           </div>
-          <span className="font-serif tracking-tight font-black not-italic text-left leading-[0.9] text-[#1B365D] text-[28px] md:text-[32px] pt-1">
-            Dixit <span className="font-sans text-[12px] uppercase tracking-[0.35em] font-bold text-[#9E1B1B] block mt-1 text-left">HEART CARE</span>
+          <span className="font-display uppercase tracking-widest font-bold not-italic text-left leading-[0.85] text-[#1B365D] text-[30px] md:text-[38px] pt-1" style={{ textShadow: "0px 4px 15px rgba(27,54,93,0.15)" }}>
+            DIXIT <span className="font-sans text-[10.5px] uppercase tracking-[0.45em] font-black text-[#9E1B1B] block mt-2 text-left opacity-90">HEART CARE</span>
           </span>
         </button>
 
