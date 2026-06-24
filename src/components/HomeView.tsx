@@ -44,7 +44,7 @@ const PRICING_DATA = [
   { 
     name: 'Re-consultation', 
     marathi: 'फेर तपासणी', 
-    price: '₹400/-', 
+    price: '₹500/-', 
     id: 'consultation',
     category: 'Essential Care',
     description: 'Follow-up tracking within 30 days to optimize prescribed therapy or medication dosage.'
