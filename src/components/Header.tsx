@@ -32,7 +32,8 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
   };
 
   return (
-    <header className={`sticky top-6 z-50 max-w-[1240px] w-[calc(100%-2.5rem)] mx-auto border border-[#9E1B1B]/15 rounded-[28px] transition-all duration-700 ease-[var(--ease-premium)] ${scrolled
+    <>
+      <header className={`sticky top-6 z-40 max-w-[1240px] w-[calc(100%-2.5rem)] mx-auto border border-[#9E1B1B]/15 rounded-[28px] transition-all duration-700 ease-[var(--ease-premium)] ${scrolled
       ? 'bg-[#FCFAF5]/90 backdrop-blur-xl shadow-premium-md py-0'
       : 'bg-[#FCFAF5]/60 backdrop-blur-md shadow-[0_20px_50px_rgba(142,112,108,0.04)] py-1'
       }`}>
@@ -131,6 +132,7 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>
+      </header>
 
       {/* Mobile Drawer menu with overlay */}
       <AnimatePresence>
@@ -207,6 +209,6 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
           </>
         )}
       </AnimatePresence>
-    </header>
+    </>
   );
 }
