@@ -351,7 +351,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                   className="block font-serif italic text-[32px] sm:text-[44px] lg:text-[52px] font-normal text-on-surface-variant mt-2"
                 >
-                  Expert care in Satara, Maharashtra.
+                  Expert Cardiology care in Satara
                 </motion.span>
               </h1>
 
