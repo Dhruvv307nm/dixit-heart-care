@@ -64,11 +64,11 @@ export default function Header({ currentView, onViewChange, appointmentCount }: 
           className="font-serif text-[24px] tracking-wide text-primary flex items-center gap-4.5 hover:opacity-95 transition-all outline-none focus-visible:ring-2 focus-visible:ring-[#9E1B1B] rounded-xl p-1"
           id="brand-logo"
         >
-          <div className="h-24 w-24 sm:h-28 sm:w-28 md:h-[9rem] md:w-[9rem] flex items-center justify-center shrink-0 relative group">
-            <img src="/dixit-logo.png" alt="Dixit Heart Care Logo" className="w-[130%] h-[130%] max-w-[130%] max-h-[130%] object-contain pointer-events-none select-none relative z-10 transition-transform duration-300 group-hover:scale-110" />
+          <div className="h-28 w-28 sm:h-32 sm:w-32 md:h-[11rem] md:w-[11rem] flex items-center justify-center shrink-0 relative group -ml-2">
+            <img src="/dixit-logo.png" alt="Dixit Heart Care Logo" className="w-[140%] h-[140%] max-w-[140%] max-h-[140%] object-contain pointer-events-none select-none relative z-10 transition-transform duration-300 group-hover:scale-110" />
           </div>
-          <span className="font-display tracking-tight font-semibold not-italic text-left leading-none text-[#1B365D] text-[26px]">
-            Dixit <span className="font-display text-[11px] uppercase tracking-[0.25em] font-medium text-[#9E1B1B] block mt-1.5 text-left">HEART CARE</span>
+          <span className="font-serif tracking-tight font-black not-italic text-left leading-[0.9] text-[#1B365D] text-[28px] md:text-[32px] pt-1">
+            Dixit <span className="font-sans text-[12px] uppercase tracking-[0.35em] font-bold text-[#9E1B1B] block mt-1 text-left">HEART CARE</span>
           </span>
         </button>
 
