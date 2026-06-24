@@ -665,7 +665,9 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 </div>
                 <h2 className="font-serif text-[48px] md:text-[62px] lg:text-[72px] font-black text-on-surface leading-[1.02] tracking-tight">
                   Dr. Rohit Prakash Dixit <br />
-                  <span className="text-[#1B365D] font-serif text-[42px] md:text-[52px] font-medium italic">MBBS, DNB (Medicine), DNB (Cardiology)</span>
+                  <span className="text-[#1B365D] font-serif text-[20px] md:text-[24px] lg:text-[28px] font-medium italic leading-snug block mt-2 tracking-normal">
+                    MBBS, DNB (Medicine), DNB (Cardiology) (Gold Medalist),<br className="hidden sm:block" /> FACC, FSCAI, CRCDM
+                  </span>
                 </h2>
                 <div className="w-24 h-[1.5px] bg-[#1B365D]/20 mt-8" />
               </div>
