@@ -714,7 +714,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
           </div>
 
           {/* Dr. Priya Dixit Secondary Profile Section */}
-          <div className="mt-20 lg:mt-32 max-w-[1080px] mx-auto border-t border-outline-variant/60 pt-16 lg:pt-24 relative z-10">
+          <div className="mt-8 max-w-[1080px] mx-auto border-t border-outline-variant/60 pt-8 relative z-50">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
               
               {/* Content Column */}
