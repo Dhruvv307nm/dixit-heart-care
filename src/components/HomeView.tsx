@@ -923,22 +923,22 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8.5">
             {[
               {
-                text: "Dr. Rohit Dixit is an excellent and highly experienced cardiologist. He has a very humble and courteous demeanor, which immediately puts patients at ease. The consultation was thorough, and the prescribed treatment was highly effective. Very grateful for the care received here in Satara.",
-                author: "Prakash Shinde",
-                role: "Patient",
-                initials: "PS"
+                text: "Very good consultation, treatment, and service. Dr. Rohit Dixit and his staff are very humble, experienced, and courteous. The entire process was smooth from start to finish.",
+                author: "Ganesh Pawar",
+                role: "Local Guide",
+                initials: "GP"
               },
               {
-                text: "Visited Dixit Heart Care for my mother's cardiac evaluation. The facility is well-equipped and Dr. Dixit provides excellent, straightforward advice without rushing. We had to wait a bit past our appointment time and parking was slightly challenging, but the medical care itself was top-notch.",
-                author: "Snehal Jadhav",
-                role: "Patient Family",
-                initials: "SJ"
+                text: "Excellent cardiology clinic in Satara. Dr. Rohit is very patient and knowledgeable. He listens carefully to all problems and suggests the best possible treatment. Highly recommended for any heart related issues.",
+                author: "Pravin Jangam",
+                role: "Google Reviewer",
+                initials: "PJ"
               },
               {
-                text: "I highly recommend Dr. Rohit Dixit for anyone seeking cardiac care. He takes the time to explain the diagnosis clearly. The clinic environment is welcoming and the staff helped us through the entire ECG and Echo process smoothly.",
-                author: "Rajesh Mane",
+                text: "I visited Dixit Heart Care for a routine checkup. The clinic is very clean, hygienic, and the staff is cooperative. Dr. Dixit's diagnosis is spot on and his polite nature makes you feel completely comfortable.",
+                author: "Siddhi Shelar",
                 role: "Patient",
-                initials: "RM"
+                initials: "SS"
               }
             ].map((testi, i) => (
               <motion.div 
