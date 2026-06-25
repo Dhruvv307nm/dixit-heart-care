@@ -184,6 +184,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const [hoveredGalleryCard, setHoveredGalleryCard] = useState<number | null>(null);
   const [activeShowcaseCard, setActiveShowcaseCard] = useState<typeof LUXURY_GAL_CARDS[0] | null>(null);
+  const [showAllUpchars, setShowAllUpchars] = useState(false);
 
   // Parallax state for clinic mosaic pictures
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -710,6 +711,87 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
               </div>
             </div>
 
+          </div>
+
+          {/* Dr. Priya Dixit Secondary Profile Section */}
+          <div className="mt-20 lg:mt-32 max-w-[1080px] mx-auto border-t border-outline-variant/60 pt-16 lg:pt-24 relative z-10">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+              
+              {/* Content Column */}
+              <div className="lg:col-span-8 w-full space-y-7 text-left order-2 lg:order-1">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <span className="w-8 h-[1px] bg-[#9E1B1B]/40" />
+                    <span className="text-[#9E1B1B] font-sans text-[10px] uppercase tracking-[0.3em] font-extrabold block">
+                      Ayurvedic Physician & Yoga Wellness Instructor
+                    </span>
+                  </div>
+                  <h3 className="font-serif text-[32px] md:text-[40px] font-black text-[#1B365D] leading-[1.1] tracking-tight">
+                    Dr. Priya Rohit Dixit
+                  </h3>
+                  <p className="font-sans text-[13px] text-[#1B365D]/70 font-bold tracking-[0.1em] uppercase">
+                    B.A.M.S., M.D. (Ayurved)
+                  </p>
+                </div>
+
+                <div className="font-sans text-[#3F3F3F]/80 text-[15px] leading-relaxed max-w-xl">
+                  <p>
+                    Dr. Priya provides specialized Ayurvedic treatments focusing on holistic healing, rejuvenation, and detoxification. Her integrative approach addresses root causes of lifestyle and metabolic disorders through traditional medicine and therapeutic yoga.
+                  </p>
+                </div>
+
+                {/* Ayurvedic Services Tags */}
+                <div className="flex flex-wrap gap-2 pt-1">
+                  {([
+                    "Shirodhara", "Patrapotali Swedan", "Janu Basti", "Hrud Basti", "Shasti Shali Pind Swed", "Nasya",
+                    "Amlapitta (Acidity)", "Sandhivat & Vat Vikar", "Pachanachya Takrari", 
+                    "Kesanchya & Saundaryavishayak Samasya", "Laththapana (Obesity)", "Yogopchar"
+                  ].slice(0, showAllUpchars ? 12 : 6)).map((tag) => (
+                    <span key={tag} className="inline-block px-3 py-1.5 bg-white border border-outline-variant/80 rounded-lg text-[10.5px] font-sans font-bold uppercase tracking-wider text-[#1B365D] shadow-sm">
+                      {tag}
+                    </span>
+                  ))}
+                  {!showAllUpchars && (
+                    <button onClick={() => setShowAllUpchars(true)} className="inline-block px-3 py-1.5 bg-[#9E1B1B]/5 border border-[#9E1B1B]/20 hover:bg-[#9E1B1B]/10 rounded-lg text-[10.5px] font-sans font-bold uppercase tracking-wider text-[#9E1B1B] shadow-sm transition-colors cursor-pointer">
+                      + 6 More
+                    </button>
+                  )}
+                  {showAllUpchars && (
+                    <button onClick={() => setShowAllUpchars(false)} className="inline-block px-3 py-1.5 bg-outline-variant/10 hover:bg-outline-variant/30 border border-transparent rounded-lg text-[10.5px] font-sans font-bold uppercase tracking-wider text-[#3F3F3F] shadow-sm transition-colors cursor-pointer">
+                      Show Less
+                    </button>
+                  )}
+                </div>
+                
+                <div className="pt-2">
+                  <span className="inline-flex items-center gap-2 font-sans text-[11px] font-bold text-[#9E1B1B] uppercase tracking-[0.15em] bg-[#9E1B1B]/5 px-3 py-1.5 rounded-md border border-[#9E1B1B]/15">
+                    <Clock size={14} className="stroke-[2.5]" /> Monday to Friday • 11:00 AM - 2:00 PM
+                  </span>
+                </div>
+              </div>
+
+              {/* Visual Placeholder Column (Waiting for photo) */}
+              <div className="lg:col-span-4 w-full relative z-10 order-1 lg:order-2">
+                <motion.div 
+                  initial={{ opacity: 0, scale: 0.96 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+                  className="max-w-[240px] mx-auto lg:ml-auto relative group"
+                >
+                  <div className="absolute inset-0 bg-[#9E1B1B]/5 rounded-[32px] translate-x-3 translate-y-3 -z-20 transition-transform duration-[1200ms] group-hover:translate-x-4 group-hover:translate-y-4" />
+                  <div className="absolute inset-0 border border-outline-variant/60 rounded-[32px] translate-x-1.5 translate-y-1.5 -z-10" />
+
+                  <div className="bg-white p-3 rounded-[28px] shadow-[0_15px_35px_rgba(27,54,93,0.02)] border border-outline-variant overflow-hidden ring-[8px] ring-white">
+                    <div className="w-full aspect-[4/5] bg-surface-container flex flex-col items-center justify-center rounded-[20px] border border-outline-variant/30 text-[#1B365D]/30 transition-colors group-hover:text-[#1B365D]/40">
+                      <Heart size={36} className="opacity-30 mb-4" />
+                      <span className="font-sans text-[9px] uppercase font-bold tracking-[0.2em] px-4 text-center leading-relaxed">Portrait Photograph<br/>Awaiting Upload</span>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+
+            </div>
           </div>
         </div>
       </motion.section>
