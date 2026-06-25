@@ -134,17 +134,14 @@ export default function PatientReviewsView({ onViewChange }: PatientReviewsViewP
       isUserAdded: true
     };
 
-    const updatedReviews = [...reviews, newReview];
-    setReviews(updatedReviews);
-
-    // Save user review specifically to local storage
+    // Save user review to a PENDING storage instead of publishing automatically
     try {
-      const stored = localStorage.getItem('dixit_patient_reviews');
-      const userAddedList = stored ? JSON.parse(stored) : [];
-      userAddedList.push(newReview);
-      localStorage.setItem('dixit_patient_reviews', JSON.stringify(userAddedList));
+      const stored = localStorage.getItem('dixit_pending_reviews');
+      const pendingList = stored ? JSON.parse(stored) : [];
+      pendingList.push(newReview);
+      localStorage.setItem('dixit_pending_reviews', JSON.stringify(pendingList));
     } catch (error) {
-      console.error('Failed to persist user review in storage', error);
+      console.error('Failed to persist pending review in storage', error);
     }
 
     // Success transition
@@ -372,7 +369,7 @@ export default function PatientReviewsView({ onViewChange }: PatientReviewsViewP
                   </div>
                   <h4 className="font-serif font-bold text-xl text-[#1B365D]">Thank You So Much!</h4>
                   <p className="font-sans text-sm text-[#3F3F3F]/75 max-w-xs leading-relaxed">
-                    Your testimonial has been verified and registered on this device’s local review ledger successfully.
+                    Your review has been submitted to the administration for verification. It will be published upon approval.
                   </p>
                 </motion.div>
               ) : (
