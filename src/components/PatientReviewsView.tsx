@@ -117,7 +117,7 @@ export default function PatientReviewsView({ onViewChange }: PatientReviewsViewP
     }
   }, []);
 
-  const handleReviewSubmit = (e: React.FormEvent) => {
+  const handleReviewSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!newAuthor.trim() || !newText.trim()) return;
 
@@ -134,14 +134,24 @@ export default function PatientReviewsView({ onViewChange }: PatientReviewsViewP
       isUserAdded: true
     };
 
-    // Save user review to a PENDING storage instead of publishing automatically
+    // Send the review directly to the clinic's email using FormSubmit
     try {
-      const stored = localStorage.getItem('dixit_pending_reviews');
-      const pendingList = stored ? JSON.parse(stored) : [];
-      pendingList.push(newReview);
-      localStorage.setItem('dixit_pending_reviews', JSON.stringify(pendingList));
+      await fetch("https://formsubmit.co/ajax/oswaldhruv639@gmail.com", {
+        method: "POST",
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: `New Patient Review for Moderation: ${newAuthor}`,
+          Name: newAuthor,
+          Role: newRole,
+          Rating: `${newRating} Stars`,
+          Review: newText
+        })
+      });
     } catch (error) {
-      console.error('Failed to persist pending review in storage', error);
+      console.error('Failed to submit review via email', error);
     }
 
     // Success transition
