@@ -1206,3 +1206,5 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
     </div>
   );
 }
+
+// Trigger update for IDE deploy
