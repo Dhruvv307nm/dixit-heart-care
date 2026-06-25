@@ -57,11 +57,11 @@ const DEFAULT_REVIEWS: Review[] = [
   },
   {
     id: "rev-5",
-    author: "Anjali Deshmukh",
-    role: "Patient",
-    text: "A dedicated facility for cardiology right here in Sadar Bazar. It is a relief not to have to travel to Pune for specialized heart checkups. Dr. Dixit is extremely professional and polite.",
+    author: "Amit Kadam",
+    role: "Local Guide",
+    text: "The clinic is very clean and well-maintained. Dr. Rohit Dixit is an excellent and experienced cardiac surgeon. The staff is very courteous and the overall consultation process was very smooth.",
     rating: 5,
-    initials: "AD"
+    initials: "AK"
   }
 ];
 
