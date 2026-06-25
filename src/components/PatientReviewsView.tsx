@@ -25,27 +25,27 @@ interface PatientReviewsViewProps {
 const DEFAULT_REVIEWS: Review[] = [
   {
     id: "rev-1",
-    author: "Prakash Shinde",
-    role: "Patient",
-    text: "Dr. Rohit Dixit is an excellent and highly experienced cardiologist. He has a very humble and courteous demeanor, which immediately puts patients at ease. The consultation was thorough, and the prescribed treatment was highly effective. Very grateful for the care received here in Satara.",
+    author: "Ganesh Pawar",
+    role: "Google Review",
+    text: "Today I got very good consultation good treatment and service in Dixit heart care Dr. Rohit Dixit the head of Dixit Heart Care and his staff are very humble experienced and courteous demeanor to help the patients. All in all a patient who was under stress of fear and tired of diseases is happy with the treatment and service he got here. He goes home in good spirits....",
     rating: 5,
-    initials: "PS"
+    initials: "GP"
   },
   {
     id: "rev-2",
-    author: "Snehal Jadhav",
-    role: "Patient Family",
-    text: "Visited Dixit Heart Care for my mother's cardiac evaluation. The facility is well-equipped and Dr. Dixit provides excellent, straightforward advice without rushing. We had to wait a bit past our appointment time and parking was slightly challenging, but the medical care itself was top-notch.",
-    rating: 4,
-    initials: "SJ"
+    author: "Pravin Jangam",
+    role: "Google Review",
+    text: "I had taken my father to the OPD; it was our first time there. The staff there provides excellent information. Dr. Rohit Dixit, in particular, provides very good guidance.",
+    rating: 5,
+    initials: "PJ"
   },
   {
     id: "rev-3",
-    author: "Rajesh Mane",
-    role: "Patient",
-    text: "I highly recommend Dr. Rohit Dixit for anyone seeking cardiac care. He takes the time to explain the diagnosis clearly. The clinic environment is welcoming and the staff helped us through the entire ECG and Echo process smoothly.",
+    author: "Siddhi Shelar",
+    role: "Google Review",
+    text: "I have been coming to dixit heart care center for the last one year for my grandmother. Dr. Rohit Dixit's treatment is very Good. He guides very well the stap is also very nice",
     rating: 5,
-    initials: "RM"
+    initials: "SS"
   },
   {
     id: "rev-4",

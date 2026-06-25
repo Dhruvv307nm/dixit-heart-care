@@ -923,21 +923,21 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8.5">
             {[
               {
-                text: "Very good consultation, treatment, and service. Dr. Rohit Dixit and his staff are very humble, experienced, and courteous. The entire process was smooth from start to finish.",
+                text: "Today I got very good consultation good treatment and service in Dixit heart care Dr. Rohit Dixit the head of Dixit Heart Care and his staff are very humble experienced and courteous demeanor to help the patients. All in all a patient who was under stress of fear and tired of diseases is happy with the treatment and service he got here. He goes home in good spirits....",
                 author: "Ganesh Pawar",
-                role: "Local Guide",
+                role: "Google Review",
                 initials: "GP"
               },
               {
-                text: "Excellent cardiology clinic in Satara. Dr. Rohit is very patient and knowledgeable. He listens carefully to all problems and suggests the best possible treatment. Highly recommended for any heart related issues.",
+                text: "I had taken my father to the OPD; it was our first time there. The staff there provides excellent information. Dr. Rohit Dixit, in particular, provides very good guidance.",
                 author: "Pravin Jangam",
-                role: "Google Reviewer",
+                role: "Google Review",
                 initials: "PJ"
               },
               {
-                text: "I visited Dixit Heart Care for a routine checkup. The clinic is very clean, hygienic, and the staff is cooperative. Dr. Dixit's diagnosis is spot on and his polite nature makes you feel completely comfortable.",
+                text: "I have been coming to dixit heart care center for the last one year for my grandmother. Dr. Rohit Dixit's treatment is very Good. He guides very well the stap is also very nice",
                 author: "Siddhi Shelar",
-                role: "Patient",
+                role: "Google Review",
                 initials: "SS"
               }
             ].map((testi, i) => (
