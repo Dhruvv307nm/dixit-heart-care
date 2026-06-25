@@ -25,43 +25,43 @@ interface PatientReviewsViewProps {
 const DEFAULT_REVIEWS: Review[] = [
   {
     id: "rev-1",
-    author: "Aniruddha Kulkarni",
-    role: "Satara Resident",
-    text: "I have been visiting Dixit Heart Care Centre on Radhika Road for years. Dr. Rohit Dixit is exceptionally humble and explains the root cause of health issues in simple terms. The best part is that he never prescribes unnecessary medicine or commercial lab tests. Highly recommended for genuine, ethical treatment in Satara!",
+    author: "Prakash Shinde",
+    role: "Patient",
+    text: "Dr. Rohit Dixit is an excellent and highly experienced cardiologist. He has a very humble and courteous demeanor, which immediately puts patients at ease. The consultation was thorough, and the prescribed treatment was highly effective. Very grateful for the care received here in Satara.",
     rating: 5,
-    initials: "AK"
+    initials: "PS"
   },
   {
     id: "rev-2",
-    author: "Meera Deshpande",
-    role: "Cardiac Care Patient",
-    text: "Dr. Rohit Dixit's consultation for my father's cardiac wellness was outstanding. He listens with immense patience, clears all anxieties, and provides extremely practical advice on lifestyle modification. His clinical expertise as a specialist cardiologist is evident, but his empathy is what truly shines.",
-    rating: 5,
-    initials: "MD"
+    author: "Snehal Jadhav",
+    role: "Patient Family",
+    text: "Visited Dixit Heart Care for my mother's cardiac evaluation. The facility is well-equipped and Dr. Dixit provides excellent, straightforward advice without rushing. We had to wait a bit past our appointment time and parking was slightly challenging, but the medical care itself was top-notch.",
+    rating: 4,
+    initials: "SJ"
   },
   {
     id: "rev-3",
-    author: "Prashant Joshi",
-    role: "3rd-Gen Family Patrons",
-    text: "Our third generation is visiting Dixit Clinic. Dr. Shirish, Dr. Alka, and Dr. Rohit have maintained an incredible standard of care. They treat patients like family members rather than clients. It is very rare to find such high ethical values, reasonable fees, and compassionate healthcare in today's times.",
+    author: "Rajesh Mane",
+    role: "Patient",
+    text: "I highly recommend Dr. Rohit Dixit for anyone seeking cardiac care. He takes the time to explain the diagnosis clearly. The clinic environment is welcoming and the staff helped us through the entire ECG and Echo process smoothly.",
     rating: 5,
-    initials: "PJ"
+    initials: "RM"
   },
   {
     id: "rev-4",
-    author: "Dr. Sunil Gokhale",
-    role: "Retired Professor",
-    text: "Excellent clinic on Radhika Road. Dr. Shirish Dixit is one of the most senior and trusted general physicians & cardiorespiratory consultants in Satara. His calm demeanor and diagnostic accuracy are unmatched. Now Dr. Rohit is carrying forward that high-trust clinic legacy beautifully.",
-    rating: 5,
-    initials: "SG"
+    author: "Vishal Patil",
+    role: "Patient Family",
+    text: "Good experience overall. Dr. Rohit is very knowledgeable and diagnosed my father's condition accurately when others couldn't. However, the clinic can get very crowded during peak hours, so I recommend booking well in advance. Excellent doctor.",
+    rating: 4,
+    initials: "VP"
   },
   {
     id: "rev-5",
-    author: "Vandana Patwardhan",
-    role: "Preventative Care Patient",
-    text: "Visits to Dixit Clinic are always reassuring. They have in-house ECG and cardiac hazard screening run with meticulous accuracy, and the rates are incredibly modest. They explain metric readings clearly. True medical family.",
-    rating: 4,
-    initials: "VP"
+    author: "Anjali Deshmukh",
+    role: "Patient",
+    text: "A dedicated facility for cardiology right here in Sadar Bazar. It is a relief not to have to travel to Pune for specialized heart checkups. Dr. Dixit is extremely professional and polite.",
+    rating: 5,
+    initials: "AD"
   }
 ];
 

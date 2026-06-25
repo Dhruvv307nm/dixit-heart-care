@@ -923,22 +923,22 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8.5">
             {[
               {
-                text: "I have been visiting Dixit Heart Care Centre on Radhika Road for years. Dr. Rohit Dixit is exceptionally humble and explains the root cause of health issues in simple terms. The best part is that he never prescribes unnecessary medicine or commercial lab tests. Highly recommended for genuine, ethical treatment in Satara!",
-                author: "Aniruddha Kulkarni",
-                role: "Satara Resident",
-                initials: "AK"
+                text: "Dr. Rohit Dixit is an excellent and highly experienced cardiologist. He has a very humble and courteous demeanor, which immediately puts patients at ease. The consultation was thorough, and the prescribed treatment was highly effective. Very grateful for the care received here in Satara.",
+                author: "Prakash Shinde",
+                role: "Patient",
+                initials: "PS"
               },
               {
-                text: "Dr. Rohit Dixit's consultation for my father's cardiac wellness was outstanding. He listens with immense patience, clears all anxieties, and provides extremely practical advice on lifestyle modification. His clinical expertise as a specialist cardiologist is evident, but his empathy is what truly shines.",
-                author: "Meera Deshpande",
-                role: "Cardiac Care Patient",
-                initials: "MD"
+                text: "Visited Dixit Heart Care for my mother's cardiac evaluation. The facility is well-equipped and Dr. Dixit provides excellent, straightforward advice without rushing. We had to wait a bit past our appointment time and parking was slightly challenging, but the medical care itself was top-notch.",
+                author: "Snehal Jadhav",
+                role: "Patient Family",
+                initials: "SJ"
               },
               {
-                text: "Our third generation is visiting Dixit Clinic. Dr. Shirish, Dr. Alka, and Dr. Rohit have maintained an incredible standard of care. They treat patients like family members rather than clients. It is very rare to find such high ethical values, reasonable fees, and compassionate healthcare in today's times.",
-                author: "Prashant Joshi",
-                role: "3rd-Gen Family Patrons",
-                initials: "PJ"
+                text: "I highly recommend Dr. Rohit Dixit for anyone seeking cardiac care. He takes the time to explain the diagnosis clearly. The clinic environment is welcoming and the staff helped us through the entire ECG and Echo process smoothly.",
+                author: "Rajesh Mane",
+                role: "Patient",
+                initials: "RM"
               }
             ].map((testi, i) => (
               <motion.div 
