@@ -116,8 +116,8 @@ export default function ServicesView({ onBookNow, onViewChange }: ServicesViewPr
                     <motion.img
                       animate={{ scale: [1, 1.02, 1] }}
                       transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-                      alt="A modern cardiac diagnostic center of Dr Rohit Dixit"
-                      src="/gallery-1.jpg"
+                      alt="Advanced GE Echo Machine"
+                      src="/gallery-4.jpg"
                       className="w-full h-full object-cover select-none pointer-events-none"
                       referrerPolicy="no-referrer"
                     />

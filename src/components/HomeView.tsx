@@ -117,18 +117,6 @@ const PRICING_DATA = [
 
 const LUXURY_GAL_CARDS = [
   {
-    id: 'diagnostics',
-    title: 'Precision Diagnostics Suite',
-    marathi: 'प्रिसिजन डायग्नोस्टिक्स युनिट',
-    sector: 'SECTOR ALPHA',
-    year: 'EST. 2011',
-    metric: '99.9% SENSOR CALIBRATION',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBpHM5uuUQ20YKmAvXJFdPqq6B379WoDW8eFe8hyHt1z39t5Gxz_ozO1y889mIP-Bt6IKEVABRv5LLAQvYoBvzw2aHTb2x0u_kjoqmxN-kb7Esq6KHNjIvxnkuqvjOkiI3F4SLl-YlQUVE_OS9mQaNNKoQ4xJfLEIJbPo_4kb8dlA_bWdy5xkFLZoITj_U--5JERsbn9z7bEs2MHILsYjJPllqVKv24MuTs42DaEIfwNVCD7zSAcNg81kePNPKdbiiOWnT7KxXTCzU',
-    desc: 'Equipped with heavy, isolation-engineered diagnostic stress decks and digitized 2-D echocardiogram analyzers under strict clinical standards. Every trace is noisefiltered to eliminate ambient artifact.',
-    highlight: 'Advanced magnetic insulation blocks signal distortion.',
-    details: ['Calibrated vibration-isolated base', 'Continuous clean air positive-pressure filter', 'High-fidelity 12-channel digital ECG outputs', 'Real-time telemedicine synchronization']
-  },
-  {
     id: 'consultation',
     title: 'Consultation Parlour',
     marathi: 'कन्सल्टेशन चेंबर',
