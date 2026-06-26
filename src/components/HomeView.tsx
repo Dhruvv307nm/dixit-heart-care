@@ -717,55 +717,65 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
               
               {/* Content Column */}
-              <div className="lg:col-span-8 w-full space-y-7 text-left order-2 lg:order-1">
-                <div className="space-y-3">
-                  <div className="flex items-center gap-3">
-                    <span className="w-8 h-[1px] bg-[#9E1B1B]/40" />
-                    <span className="text-[#9E1B1B] font-sans text-[10px] uppercase tracking-[0.3em] font-extrabold block">
-                      Ayurvedic Physician & Yoga Wellness Instructor
+              <div className="lg:col-span-8 w-full space-y-8 text-left order-2 lg:order-1 lg:pr-12">
+                <div className="space-y-4">
+                  <div className="flex items-center gap-4">
+                    <span className="w-10 h-[2px] bg-gradient-to-r from-[#9E1B1B] to-transparent" />
+                    <span className="text-[#9E1B1B] font-sans text-[11px] uppercase tracking-[0.35em] font-black block">
+                      Holistic Healing & Wellness
                     </span>
                   </div>
-                  <h3 className="font-serif text-[32px] md:text-[40px] font-black text-[#1B365D] leading-[1.1] tracking-tight">
-                    Dr. Priya Rohit Dixit
-                  </h3>
-                  <p className="font-sans text-[13px] text-[#1B365D]/70 font-bold tracking-[0.1em] uppercase">
-                    B.A.M.S., M.D. (Ayurved)
-                  </p>
+                  <div>
+                    <h3 className="font-serif text-[36px] md:text-[46px] font-black text-[#1B365D] leading-[1.1] tracking-tight">
+                      Dr. Priya Rohit Dixit
+                    </h3>
+                    <p className="font-sans text-[14px] text-[#1B365D]/60 font-bold tracking-[0.15em] uppercase mt-2">
+                      B.A.M.S., M.D. (Ayurved) • Ayurvedic Physician
+                    </p>
+                  </div>
                 </div>
 
-                <div className="font-sans text-[#3F3F3F]/80 text-[15px] leading-relaxed max-w-xl">
+                <div className="font-sans text-[#3F3F3F]/80 text-[16px] leading-[1.8] max-w-xl font-medium">
                   <p>
-                    Dr. Priya provides specialized Ayurvedic treatments focusing on holistic healing, rejuvenation, and detoxification. Her integrative approach addresses root causes of lifestyle and metabolic disorders through traditional medicine and therapeutic yoga.
+                    Dr. Priya provides specialized Ayurvedic treatments focusing on holistic healing, rejuvenation, and profound detoxification. Her integrative approach gently addresses the root causes of lifestyle and metabolic disorders through traditional medicine and therapeutic yoga.
                   </p>
                 </div>
 
                 {/* Ayurvedic Services Tags */}
-                <div className="flex flex-wrap gap-2 pt-1">
-                  {([
-                    "Shirodhara", "Patrapotali Swedan", "Janu Basti", "Hrud Basti", "Shasti Shali Pind Swed", "Nasya",
-                    "Amlapitta (Acidity)", "Sandhivat & Vat Vikar", "Pachanachya Takrari", 
-                    "Kesanchya & Saundaryavishayak Samasya", "Laththapana (Obesity)", "Yogopchar"
-                  ].slice(0, showAllUpchars ? 12 : 6)).map((tag) => (
-                    <span key={tag} className="inline-block px-3 py-1.5 bg-white border border-outline-variant/80 rounded-lg text-[10.5px] font-sans font-bold uppercase tracking-wider text-[#1B365D] shadow-sm">
-                      {tag}
-                    </span>
-                  ))}
-                  {!showAllUpchars && (
-                    <button onClick={() => setShowAllUpchars(true)} className="inline-block px-3 py-1.5 bg-[#9E1B1B]/5 border border-[#9E1B1B]/20 hover:bg-[#9E1B1B]/10 rounded-lg text-[10.5px] font-sans font-bold uppercase tracking-wider text-[#9E1B1B] shadow-sm transition-colors cursor-pointer">
-                      + 6 More
-                    </button>
-                  )}
-                  {showAllUpchars && (
-                    <button onClick={() => setShowAllUpchars(false)} className="inline-block px-3 py-1.5 bg-outline-variant/10 hover:bg-outline-variant/30 border border-transparent rounded-lg text-[10.5px] font-sans font-bold uppercase tracking-wider text-[#3F3F3F] shadow-sm transition-colors cursor-pointer">
-                      Show Less
-                    </button>
-                  )}
+                <div className="pt-2">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#1B365D]/40 mb-3">Specialized Therapies</p>
+                  <div className="flex flex-wrap gap-2.5">
+                    {([
+                      "Shirodhara", "Patrapotali Swedan", "Janu Basti", "Hrud Basti", "Shasti Shali Pind Swed", "Nasya",
+                      "Amlapitta (Acidity)", "Sandhivat & Vat Vikar", "Pachanachya Takrari", 
+                      "Kesanchya & Saundaryavishayak Samasya", "Laththapana (Obesity)", "Yogopchar"
+                    ].slice(0, showAllUpchars ? 12 : 6)).map((tag) => (
+                      <span key={tag} className="inline-block px-4 py-2 bg-white/60 backdrop-blur-sm border border-outline-variant/60 rounded-xl text-[11px] font-sans font-extrabold uppercase tracking-widest text-[#1B365D]/80 shadow-[0_4px_12px_rgba(27,54,93,0.03)] hover:border-[#1B365D]/20 transition-colors">
+                        {tag}
+                      </span>
+                    ))}
+                    {!showAllUpchars && (
+                      <button onClick={() => setShowAllUpchars(true)} className="inline-block px-4 py-2 bg-[#9E1B1B]/5 border border-[#9E1B1B]/15 hover:bg-[#9E1B1B]/10 hover:border-[#9E1B1B]/30 rounded-xl text-[11px] font-sans font-extrabold uppercase tracking-widest text-[#9E1B1B] shadow-sm transition-all cursor-pointer">
+                        + 6 More
+                      </button>
+                    )}
+                    {showAllUpchars && (
+                      <button onClick={() => setShowAllUpchars(false)} className="inline-block px-4 py-2 bg-surface-container hover:bg-outline-variant/30 border border-outline-variant/40 rounded-xl text-[11px] font-sans font-extrabold uppercase tracking-widest text-[#1B365D]/60 shadow-sm transition-all cursor-pointer">
+                        Show Less
+                      </button>
+                    )}
+                  </div>
                 </div>
                 
-                <div className="pt-2">
-                  <span className="inline-flex items-center gap-2 font-sans text-[11px] font-bold text-[#9E1B1B] uppercase tracking-[0.15em] bg-[#9E1B1B]/5 px-3 py-1.5 rounded-md border border-[#9E1B1B]/15">
-                    <Clock size={14} className="stroke-[2.5]" /> Monday to Friday • 11:00 AM - 2:00 PM
-                  </span>
+                <div className="pt-6">
+                  <div className="inline-flex items-center gap-3 bg-white/80 backdrop-blur-md px-5 py-3 rounded-2xl border border-outline-variant/50 shadow-[0_8px_24px_rgba(27,54,93,0.04)]">
+                    <div className="w-8 h-8 rounded-full bg-[#9E1B1B]/10 flex items-center justify-center">
+                      <Clock size={14} className="stroke-[2.5] text-[#9E1B1B]" />
+                    </div>
+                    <span className="font-sans text-[12px] font-bold text-[#1B365D] uppercase tracking-[0.15em]">
+                      Mon to Fri <span className="text-outline-variant mx-2">|</span> <span className="text-[#9E1B1B]">11:00 AM - 2:00 PM</span>
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -778,11 +788,11 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                   transition={{ duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
                   className="relative group mx-auto max-w-[280px] lg:max-w-none"
                 >
-                  <div className="absolute inset-0 bg-[#9E1B1B]/5 rounded-[32px] translate-x-3 translate-y-3 -z-20 transition-transform duration-[1200ms] group-hover:translate-x-4 group-hover:translate-y-4" />
-                  <div className="absolute inset-0 border border-outline-variant/60 rounded-[32px] translate-x-1.5 translate-y-1.5 -z-10" />
+                  <div className="absolute inset-0 bg-[#9E1B1B]/5 rounded-t-full rounded-b-[32px] translate-x-3 translate-y-3 -z-20 transition-transform duration-[1200ms] group-hover:translate-x-4 group-hover:translate-y-4" />
+                  <div className="absolute inset-0 border border-outline-variant/60 rounded-t-full rounded-b-[32px] translate-x-1.5 translate-y-1.5 -z-10" />
 
-                  <div className="bg-white p-3 rounded-[28px] shadow-[0_15px_35px_rgba(27,54,93,0.02)] border border-outline-variant overflow-hidden ring-[8px] ring-white">
-                    <div className="w-full aspect-[4/5] bg-surface-container rounded-[20px] border border-outline-variant/30 overflow-hidden relative">
+                  <div className="bg-white p-3 rounded-t-full rounded-b-[32px] shadow-[0_20px_40px_rgba(27,54,93,0.04)] border border-outline-variant overflow-hidden ring-[8px] ring-white/50">
+                    <div className="w-full aspect-[4/5] bg-surface-container rounded-t-full rounded-b-[20px] border border-outline-variant/30 overflow-hidden relative">
                       <img 
                         src="/dr-priya-dixit.jpg" 
                         alt="Dr. Priya Rohit Dixit" 
