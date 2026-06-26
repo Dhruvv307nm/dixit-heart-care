@@ -769,22 +769,25 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 </div>
               </div>
 
-              {/* Visual Placeholder Column (Waiting for photo) */}
+              {/* Visual Placeholder Column */}
               <div className="lg:col-span-4 w-full relative z-10 order-1 lg:order-2">
                 <motion.div 
-                  initial={{ opacity: 0, scale: 0.96 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-                  className="max-w-[240px] mx-auto lg:ml-auto relative group"
+                  initial={{ opacity: 0, scale: 0.9, rotate: 2 }}
+                  whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
+                  className="relative group mx-auto max-w-[280px] lg:max-w-none"
                 >
                   <div className="absolute inset-0 bg-[#9E1B1B]/5 rounded-[32px] translate-x-3 translate-y-3 -z-20 transition-transform duration-[1200ms] group-hover:translate-x-4 group-hover:translate-y-4" />
                   <div className="absolute inset-0 border border-outline-variant/60 rounded-[32px] translate-x-1.5 translate-y-1.5 -z-10" />
 
                   <div className="bg-white p-3 rounded-[28px] shadow-[0_15px_35px_rgba(27,54,93,0.02)] border border-outline-variant overflow-hidden ring-[8px] ring-white">
-                    <div className="w-full aspect-[4/5] bg-surface-container flex flex-col items-center justify-center rounded-[20px] border border-outline-variant/30 text-[#1B365D]/30 transition-colors group-hover:text-[#1B365D]/40">
-                      <Heart size={36} className="opacity-30 mb-4" />
-                      <span className="font-sans text-[9px] uppercase font-bold tracking-[0.2em] px-4 text-center leading-relaxed">Portrait Photograph<br/>Awaiting Upload</span>
+                    <div className="w-full aspect-[4/5] bg-surface-container rounded-[20px] border border-outline-variant/30 overflow-hidden relative">
+                      <img 
+                        src="/dr-priya-dixit.jpg" 
+                        alt="Dr. Priya Rohit Dixit" 
+                        className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                      />
                     </div>
                   </div>
                 </motion.div>
