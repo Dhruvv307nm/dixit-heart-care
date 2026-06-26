@@ -163,6 +163,54 @@ const LUXURY_GAL_CARDS = [
     desc: 'The clean hub for high-precision diagnostic triage, providing acute cardiac monitoring and early-intervention guidance supported by real-time digital hemodynamic analysis.',
     highlight: 'Strictly sterile, maintaining advanced international medical standards.',
     details: ['High definition multi-axis scanning', 'Continuous vital status digital display', 'GE Healthcare calibrated sensors', 'Advanced anti-pathogen composite touchpoints']
+  },
+  {
+    id: 'cash-counter',
+    title: 'Billing & Cash Counter',
+    marathi: 'कॅश काउंटर',
+    sector: 'FRONT OFFICE',
+    year: 'EST. 2011',
+    metric: 'TRANSPARENT BILLING',
+    img: '/gallery-5.jpg',
+    desc: 'Our streamlined billing counter ensures a smooth, transparent, and hassle-free payment process for all patients.',
+    highlight: 'Clear and upfront pricing with zero hidden costs.',
+    details: ['Digital payment acceptance', 'Detailed bill breakdowns', 'Insurance claim assistance', 'Fast-track discharge process']
+  },
+  {
+    id: 'pharmacy',
+    title: 'Heart Care Medical Pharmacy',
+    marathi: 'मेडिकल स्टोअर',
+    sector: 'PHARMACY WING',
+    year: '24/7 AVAILABILITY',
+    metric: 'AUTHENTIC MEDICINES',
+    img: '/gallery-6.jpg',
+    desc: 'Our fully-stocked in-house pharmacy ensures immediate access to all prescribed cardiovascular medications and critical care drugs.',
+    highlight: '100% genuine medicines dispensed directly on-site.',
+    details: ['Critical cardiac drugs available', 'Cold chain maintenance', 'Direct prescription routing', 'Expert pharmacist guidance']
+  },
+  {
+    id: 'waiting-lounge',
+    title: 'Patient Waiting Lounge',
+    marathi: 'प्रतीक्षालय',
+    sector: 'PATIENT COMFORT',
+    year: 'RELAXING ENVIRONMENT',
+    metric: 'SPACIOUS SEATING',
+    img: '/gallery-7.jpg',
+    desc: 'A spacious and calm waiting area designed to provide maximum comfort for patients and their accompanying relatives.',
+    highlight: 'Comfortable ergonomic seating to reduce waiting anxiety.',
+    details: ['Adequate ventilation and lighting', 'Comfortable metal seating', 'Easy access to consultation rooms', 'Informative health noticeboards']
+  },
+  {
+    id: 'building-exterior',
+    title: 'Dixit Heart Care Center',
+    marathi: 'दीक्षित हार्ट केअर',
+    sector: 'MAIN FACILITY',
+    year: 'SUPER SPECIALITY',
+    metric: 'EASY ACCESSIBILITY',
+    img: '/gallery-8.jpg',
+    desc: 'Our advanced super speciality cardiac center, easily accessible and equipped with state-of-the-art infrastructure for comprehensive heart care.',
+    highlight: 'A landmark facility dedicated entirely to cardiovascular health.',
+    details: ['Prominent accessible location', 'Modern building architecture', 'Dedicated patient drop-off zone', 'Welcoming green entrance']
   }
 ];
 
