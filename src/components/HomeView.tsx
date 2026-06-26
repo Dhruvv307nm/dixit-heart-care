@@ -117,64 +117,52 @@ const PRICING_DATA = [
 
 const LUXURY_GAL_CARDS = [
   {
-    id: 'diagnostics',
-    title: 'Precision Diagnostics Suite',
-    marathi: 'प्रिसिजन डायग्नोस्टिक्स युनिट',
-    sector: 'SECTOR ALPHA',
+    id: 'reception',
+    title: 'VIP Intake Concierge',
+    marathi: 'स्वागत आणि माहिती कक्ष',
+    sector: 'FRONT OFFICE',
     year: 'EST. 2011',
-    metric: '99.9% SENSOR CALIBRATION',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBpHM5uuUQ20YKmAvXJFdPqq6B379WoDW8eFe8hyHt1z39t5Gxz_ozO1y889mIP-Bt6IKEVABRv5LLAQvYoBvzw2aHTb2x0u_kjoqmxN-kb7Esq6KHNjIvxnkuqvjOkiI3F4SLl-YlQUVE_OS9mQaNNKoQ4xJfLEIJbPo_4kb8dlA_bWdy5xkFLZoITj_U--5JERsbn9z7bEs2MHILsYjJPllqVKv24MuTs42DaEIfwNVCD7zSAcNg81kePNPKdbiiOWnT7KxXTCzU',
-    desc: 'Equipped with heavy, isolation-engineered diagnostic stress decks and digitized 2-D echocardiogram analyzers under strict clinical standards. Every trace is noisefiltered to eliminate ambient artifact.',
-    highlight: 'Advanced magnetic insulation blocks signal distortion.',
-    details: ['Calibrated vibration-isolated base', 'Continuous clean air positive-pressure filter', 'High-fidelity 12-channel digital ECG outputs', 'Real-time telemedicine synchronization']
+    metric: 'IMMEDIATE HOST ASSIGN',
+    img: '/gallery-1.jpg',
+    desc: 'Features a welcoming reception area with prestigious awards highlighting our dedication to medical excellence and transparent patient care.',
+    highlight: 'Instant administrative mapping saves patient wait times.',
+    details: ['Efficient patient intake process', 'Fully open transparent pricing boards', 'Comfortable waiting area', 'Direct fast-track specialist triage']
   },
   {
     id: 'consultation',
     title: 'Consultation Parlour',
     marathi: 'कन्सल्टेशन चेंबर',
-    sector: 'SECTOR BETA',
+    sector: 'DOCTOR DESK',
     year: 'SERENE CLASS',
     metric: 'ACOUSTICAL SHIELDING',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDm_JX8AUlIsoUBcAes_KJYYPs-oUNLBKUHReNvV7JgrRoN7jbwHRBRf7-DZEp6Bgs2SvUZMEA2B8tZmdXjAayXFuFUPEfOob8C1NDDjP5Fy4DhrRf4LQRfqbJdrcrtNpx4eCBVautdAG-Q_ejApsKFoDWRIOmKdv3JFWOaAyAs4wx0OGwgzPyftaYiKWwK3Htl4ryudlwzKu8gvyjYr80mPbu9SScVS-vGWJybQzI-KRBCvt1vVbY0QUExEIH64ylkXFswKXDaWSo',
-    desc: 'A serene sanctuary structured in sound-dampening oak panelling to foster absolute quietude. Here, patient histories are explored with zero distraction and total medical records transparency.',
-    highlight: 'Double-glazed sound barriers ensure absolute consulting privacy.',
-    details: ['Premium solid oak acoustics', 'Indirect warm spectrum LED wellness lighting', 'Ergonomic orthopedic consultation seating', 'Dual-monitor diagnostic review consoles']
+    img: '/gallery-3.jpg',
+    desc: 'A serene and professional sanctuary designed for in-depth patient histories and distraction-free medical review.',
+    highlight: 'Ensures absolute consulting privacy and doctor-patient confidentiality.',
+    details: ['Premium solid oak acoustics', 'Indirect warm wellness lighting', 'Ergonomic orthopedic consultation seating', 'Dual-monitor diagnostic review consoles']
   },
   {
-    id: 'reception',
-    title: 'VIP Intake Concierge',
-    marathi: 'स्वागत आणि माहिती कक्ष',
-    sector: 'SECTOR GAMMA',
-    year: 'CONCIERGE ON CALL',
-    metric: 'IMMEDIATE HOST ASSIGN',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBOyErOJ8iHxVSG4nQB1KkOFY5Z2KctGToWwUbkMUgsp995gQOfUvw_HjVsRWDTe3BDWW9n98uRZIaTySBYbQ5Ioa5UAxJFECoHj1EAZa41VaMyPPhJwf844skQYIsBuLiXm3Gp8rVhlEvKqvfEO9GZyJbUa3_BeUHt4JZRGolljxW6b7hS51G2Y1dSSdnVVEjfHrQ4OMHrLRrqneD7R4YL-eqItsgtFIkh6RFNhev-lO4EsW1MtmB7-0H1rbzyFqVASqV-9TvNiYM',
-    desc: 'Features a low-clutter entrance reception where admin transparency meets upscale hospitality. Live billing rates are directly verified through patient digital wallets on check-in.',
-    highlight: 'Instant administrative mapping saves patient wait times.',
-    details: ['Touchless digital check-in terminal', 'Fully open transparent pricing boards', 'Secured locker systems for patient records', 'Direct fast-track specialist triage']
-  },
-  {
-    id: 'lounge',
-    title: 'Soundproofed Recovery Sanctuary',
-    marathi: 'शांतता आणि विश्रांती कक्ष',
-    sector: 'SECTOR OMEGA',
-    year: 'RECOVERY CLASS',
-    metric: 'MICROCLIMATE FLUID CONTROL',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC7vfXDileT4qXq_cyfDkQobi98qjHacFzW3mBRXduADAXs0WtRGgqbrqQ-XEqrK7ruOxZ9qPSLcNtSLbSM9S4_ioeoh4Aovs3kxmL9IuashpMiIPf2U8tnr2joh6dG9xtv7Ig0UTaOFFIm57I9GkoNkxzbwDo-u7VQTIHn09MdqiLwSrCkLCOnPPGgY5Nmjqub3j14B-xhhj5NVxyxUBdFN3pjeT89r99i5zZybs8nartXeMwj-GRgwotBp-4wag6ogE4LTfnqKQM',
-    desc: 'An ambient, climate-regulated space designed to transition pre and post-consultation anxiety into clinical peace. Equipped with plush seating configurations and indirect oxygen-rich air circulation.',
-    highlight: 'Somatic comfort is designed to stabilize baseline heart rates.',
-    details: ['High air exchange clean environment', 'Orthopedic anti-stress lounge modules', 'Acoustic background calming frequency streams', 'Patient companion storage lockers']
+    id: 'diagnostics',
+    title: 'Precision Diagnostics Suite',
+    marathi: 'प्रिसिजन डायग्नोस्टिक्स युनिट',
+    sector: 'DIAGNOSTIC WING',
+    year: 'SONOGRAPHY LAB',
+    metric: '99.9% SENSOR CALIBRATION',
+    img: '/gallery-2.jpg',
+    desc: 'Equipped with the latest GE diagnostic systems for ultra-precise echocardiograms and cardiovascular scanning.',
+    highlight: 'Advanced medical imaging with zero ambient signal distortion.',
+    details: ['Calibrated vibration-isolated base', 'Continuous clean air positive-pressure filter', 'High-fidelity GE imaging outputs', 'Real-time telemedicine synchronization']
   },
   {
     id: 'clinical_lab',
-    title: 'Primary Interventional Suite',
-    marathi: 'प्राथमिक प्रभाग',
-    sector: 'SECTOR SIGMA',
-    year: 'HEMODYNAMIC STABLE',
+    title: 'Advanced Echo System',
+    marathi: 'अल्ट्रासाऊंड मशिन',
+    sector: 'IMAGING HARDWARE',
+    year: 'HIGH-DEF SCAN',
     metric: 'CLASS 100 STERILITY',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDIboAfRzk9tpRj_PQB0aUFIvqx82Vx9vb4MMY4NtfiPxoQXT9by4Cp8AQFZY5wzMngrh6elrZF8Gj8OqOPoyz9M4GmvwQWdWZ1VJ8NtNWsx8Na7KhzBYjUqaSN5Ib2zcOvq6p81WPOzGdYQF2eUb8uPWmL3rv5sd_-xAljJtE4PwBKPLtTiCNtrr38BUaY17DIbZS9upjCYYs8ywq5Ek6KAcDf1JiAK3eKPbec6wc0Nz0ybLHueBPokEV8vTD7SD5VdTb4hu_HFlM',
+    img: '/gallery-4.jpg',
     desc: 'The clean hub for high-precision diagnostic triage, providing acute cardiac monitoring and early-intervention guidance supported by real-time digital hemodynamic analysis.',
-    highlight: 'Strictly sterile, maintaining advanced international surgical standards.',
-    details: ['Class 100 laminar airflow systems', 'Continuous vital status digital display', 'Direct emergency transport corridor line', 'Advanced anti-pathogen composite touchpoints']
+    highlight: 'Strictly sterile, maintaining advanced international medical standards.',
+    details: ['High definition multi-axis scanning', 'Continuous vital status digital display', 'GE Healthcare calibrated sensors', 'Advanced anti-pathogen composite touchpoints']
   }
 ];
 
@@ -510,15 +498,15 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     transition={{ duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}
                   >
                     <img 
-                      alt="Cardiac Stress Test & Evaluation Lab" 
+                      alt="Cardiac Evaluation Ultrasound" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="/schiller-stress-lab.jpg"
+                      src="/gallery-4.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/25 to-transparent flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                     <span className="text-on-primary-container text-[9px] uppercase font-extrabold tracking-[0.25em]">Cardiac Evaluation</span>
-                    <h4 className="text-white text-xs font-sans font-bold mt-1 uppercase tracking-wider">Schiller Stress Labs</h4>
+                    <h4 className="text-white text-xs font-sans font-bold mt-1 uppercase tracking-wider">Advanced Ultrasound</h4>
                   </div>
                 </div>
               </motion.div>

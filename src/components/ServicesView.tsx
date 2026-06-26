@@ -117,7 +117,7 @@ export default function ServicesView({ onBookNow, onViewChange }: ServicesViewPr
                       animate={{ scale: [1, 1.02, 1] }}
                       transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
                       alt="A modern cardiac diagnostic center of Dr Rohit Dixit"
-                      src="/clinic-view-3.jpg"
+                      src="/gallery-1.jpg"
                       className="w-full h-full object-cover select-none pointer-events-none"
                       referrerPolicy="no-referrer"
                     />
