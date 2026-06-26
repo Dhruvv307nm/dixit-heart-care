@@ -117,53 +117,6 @@ const PRICING_DATA = [
 
 const LUXURY_GAL_CARDS = [
   {
-    id: 'consultation',
-    title: 'Consultation Parlour',
-    marathi: 'कन्सल्टेशन चेंबर',
-    sector: 'SECTOR BETA',
-    year: 'SERENE CLASS',
-    metric: 'ACOUSTICAL SHIELDING',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDm_JX8AUlIsoUBcAes_KJYYPs-oUNLBKUHReNvV7JgrRoN7jbwHRBRf7-DZEp6Bgs2SvUZMEA2B8tZmdXjAayXFuFUPEfOob8C1NDDjP5Fy4DhrRf4LQRfqbJdrcrtNpx4eCBVautdAG-Q_ejApsKFoDWRIOmKdv3JFWOaAyAs4wx0OGwgzPyftaYiKWwK3Htl4ryudlwzKu8gvyjYr80mPbu9SScVS-vGWJybQzI-KRBCvt1vVbY0QUExEIH64ylkXFswKXDaWSo',
-    desc: 'A serene sanctuary structured in sound-dampening oak panelling to foster absolute quietude. Here, patient histories are explored with zero distraction and total medical records transparency.',
-    highlight: 'Double-glazed sound barriers ensure absolute consulting privacy.',
-    details: ['Premium solid oak acoustics', 'Indirect warm spectrum LED wellness lighting', 'Ergonomic orthopedic consultation seating', 'Dual-monitor diagnostic review consoles']
-  },
-  {
-    id: 'reception',
-    title: 'VIP Intake Concierge',
-    marathi: 'स्वागत आणि माहिती कक्ष',
-    sector: 'SECTOR GAMMA',
-    year: 'CONCIERGE ON CALL',
-    metric: 'IMMEDIATE HOST ASSIGN',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBOyErOJ8iHxVSG4nQB1KkOFY5Z2KctGToWwUbkMUgsp995gQOfUvw_HjVsRWDTe3BDWW9n98uRZIaTySBYbQ5Ioa5UAxJFECoHj1EAZa41VaMyPPhJwf844skQYIsBuLiXm3Gp8rVhlEvKqvfEO9GZyJbUa3_BeUHt4JZRGolljxW6b7hS51G2Y1dSSdnVVEjfHrQ4OMHrLRrqneD7R4YL-eqItsgtFIkh6RFNhev-lO4EsW1MtmB7-0H1rbzyFqVASqV-9TvNiYM',
-    desc: 'Features a low-clutter entrance reception where admin transparency meets upscale hospitality. Live billing rates are directly verified through patient digital wallets on check-in.',
-    highlight: 'Instant administrative mapping saves patient wait times.',
-    details: ['Touchless digital check-in terminal', 'Fully open transparent pricing boards', 'Secured locker systems for patient records', 'Direct fast-track specialist triage']
-  },
-  {
-    id: 'lounge',
-    title: 'Soundproofed Recovery Sanctuary',
-    marathi: 'शांतता आणि विश्रांती कक्ष',
-    sector: 'SECTOR OMEGA',
-    year: 'RECOVERY CLASS',
-    metric: 'MICROCLIMATE FLUID CONTROL',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC7vfXDileT4qXq_cyfDkQobi98qjHacFzW3mBRXduADAXs0WtRGgqbrqQ-XEqrK7ruOxZ9qPSLcNtSLbSM9S4_ioeoh4Aovs3kxmL9IuashpMiIPf2U8tnr2joh6dG9xtv7Ig0UTaOFFIm57I9GkoNkxzbwDo-u7VQTIHn09MdqiLwSrCkLCOnPPGgY5Nmjqub3j14B-xhhj5NVxyxUBdFN3pjeT89r99i5zZybs8nartXeMwj-GRgwotBp-4wag6ogE4LTfnqKQM',
-    desc: 'An ambient, climate-regulated space designed to transition pre and post-consultation anxiety into clinical peace. Equipped with plush seating configurations and indirect oxygen-rich air circulation.',
-    highlight: 'Somatic comfort is designed to stabilize baseline heart rates.',
-    details: ['High air exchange clean environment', 'Orthopedic anti-stress lounge modules', 'Acoustic background calming frequency streams', 'Patient companion storage lockers']
-  },
-  {
-    id: 'clinical_lab',
-    title: 'Primary Interventional Suite',
-    marathi: 'प्राथमिक प्रभाग',
-    sector: 'SECTOR SIGMA',
-    year: 'HEMODYNAMIC STABLE',
-    metric: 'CLASS 100 STERILITY',
-    img: 'tic triage, providing acute cardiac monitoring and early-intervention guidance supported by real-time digital hemodynamic analysis.',
-    highlight: 'Strictly sterile, maintaining advanced international surgical standards.',
-    details: ['Class 100 laminar airflow systems', 'Continuous vital status digital display', 'Direct emergency transport corridor line', 'Advanced anti-pathogen composite touchpoints']
-  },
-  {
     id: 'reception-new',
     title: 'Clinic Reception',
     marathi: 'स्वागत आणि माहिती कक्ष',
@@ -222,9 +175,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
   const [showAllUpchars, setShowAllUpchars] = useState(false);
 
   // Parallax state for clinic mosaic pictures
-  const [mousePosition, setMousePosition] = useState({
-    x: 0, https://lh3.googleusercontent.com/aidapublic/AB6AXuDIboAfRzk9tpRj_PQB0aUFIvqx82Vx9vb4MMY4NtfiPxoQXT9by4Cp8AQFZY5wzMngrh6elrZF8Gj8OqOPoyz9M4GmvwQWdWZ1VJ8NtNWsx8Na7KhzBYjUqaSN5Ib2zcOvq6p81WPOzGdYQF2eUb8uPWmL3rv5sd_-xAljJtE4PwBKPLtTiCNtrr38BUaY17DIbZS9upjCYYs8ywq5Ek6KAcDf1JiAK3eKPbec6wc0Nz0ybLHueBPokEV8vTD7SD5VdTb4hu_HFlM',
-      desc: 'The clean hub for high-precision diagnos y: 0 });
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
       const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
