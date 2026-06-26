@@ -478,9 +478,9 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
                   >
                     <img 
-                      alt="Clinic Treatment & Lab Equipment" 
+                      alt="Advanced GE Echo Machine" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="/clinic-equipment.jpg"
+                      src="/gallery-4.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
@@ -514,7 +514,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     <img 
                       alt="Clinic Front Reception Area" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="/clinic-reception.jpg"
+                      src="/gallery-1.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
@@ -546,9 +546,9 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                     transition={{ duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}
                   >
                     <img 
-                      alt="Cardiac Evaluation Ultrasound" 
+                      alt="Doctor Consultation Room" 
                       className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                      src="/gallery-4.jpg"
+                      src="/gallery-3.jpg"
                       referrerPolicy="no-referrer"
                     />
                   </motion.div>
