@@ -118,7 +118,7 @@ export default function ServicesView({ onBookNow, onViewChange }: ServicesViewPr
                       transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
                       alt="Advanced GE Echo Machine"
                       src="/gallery-2.jpg"
-                      className="w-full h-full object-cover select-none pointer-events-none"
+                      className="w-full h-full object-contain bg-neutral-50 select-none pointer-events-none"
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/15 to-transparent pointer-events-none" />
