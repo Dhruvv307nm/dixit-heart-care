@@ -482,7 +482,7 @@ export default function HomeView({ onViewChange, onBookNow }: HomeViewProps) {
                 <img
                   alt="Advanced GE Echo Machine"
                   className="w-full h-full object-cover group-hover:scale-108 transition-all duration-[1200ms]"
-                  src="/gallery-4.jpg"
+                  src="/clinic-view-1.jpg"
                   referrerPolicy="no-referrer"
                 />
               </motion.div>
