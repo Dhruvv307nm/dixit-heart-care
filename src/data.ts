@@ -5,7 +5,7 @@ export const PROCEDURES: Procedure[] = [
     id: 'ecg',
     name: 'ECG / EKG',
     marathiName: 'ईसीजी (इलेक्ट्रोकार्डियोग्राम)',
-    price: 500,
+    price: 400,
     description: 'A quick, painless test that records the electrical signals in your heart to detect arrhythmias or previous heart attacks.',
     iconName: 'HeartPulse',
     duration: '10 mins',
@@ -15,7 +15,7 @@ export const PROCEDURES: Procedure[] = [
     id: 'echo',
     name: '2D Echo',
     marathiName: '२डी इकोकार्डियोग्राफी',
-    price: 2000,
+    price: 1500,
     description: 'Ultrasound imaging of the heart to assess structure, valve function, and overall pumping capacity.',
     iconName: 'Heart',
     duration: '30 mins',
@@ -25,7 +25,7 @@ export const PROCEDURES: Procedure[] = [
     id: 'tmt',
     name: 'TMT Test',
     marathiName: 'टीएमटी (ट्रेडमिल टेस्ट)',
-    price: 2500,
+    price: 1500,
     description: 'Stress test evaluating heart function during physical exertion to detect coronary artery disease.',
     iconName: 'TrendingUp',
     duration: '45 mins',
@@ -37,9 +37,9 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 'holter',
-    name: 'Holter Monitor',
+    name: 'Holter Monitor (24 hours)',
     marathiName: 'होल्टर मॉनिटरिंग (२४ तास)',
-    price: 3500,
+    price: 3000,
     description: 'Continuous 24-hour ECG recording to catch irregular heartbeats that may not occur during a standard exam.',
     iconName: 'Clock',
     duration: '24 hours',
@@ -49,24 +49,12 @@ export const PROCEDURES: Procedure[] = [
       'Avoid high-voltage areas or metal detectors.'
     ]
   },
-  {
-    id: 'lipid',
-    name: 'Lipid Profile',
-    marathiName: 'लिपिड प्रोफाईल',
-    price: 800,
-    description: 'Blood test to measure cholesterol levels and triglycerides, key indicators of cardiovascular risk.',
-    iconName: 'Droplet',
-    duration: '15 mins',
-    instructions: [
-      'A 10 to 12-hour overnight fast is strictly required.',
-      'Only plain water is allowed during the fasting period.'
-    ]
-  },
+
   {
     id: 'consultation',
     name: 'Consultation',
     marathiName: 'डॉक्टरांचा सल्ला',
-    price: 1000,
+    price: 600,
     description: 'Comprehensive review of your medical history, symptoms, and test results with our expert cardiologists.',
     iconName: 'Stethoscope',
     duration: '20 mins',

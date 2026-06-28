@@ -284,40 +284,7 @@ export default function ServicesView({ onBookNow, onViewChange }: ServicesViewPr
                 })()
               )}
 
-              {/* CARD 5 - Lipid Profile */}
-              {filteredProcedures.some(p => p.id === 'lipid') && (
-                (() => {
-                  const proc = PROCEDURES.find(p => p.id === 'lipid')!;
-                  return (
-                    <motion.div
-                      whileHover={{ y: -8, scale: 1.005 }}
-                      onClick={() => setSelectedProcedure(proc)}
-                      className="bg-white rounded-[32px] p-9 border border-outline-variant/50 shadow-[0_20px_50px_rgba(27,54,93,0.01)] ring-1 ring-primary/[0.03] transition-all duration-750 hover:border-primary/20 hover:shadow-[0_40px_85px_rgba(27,54,93,0.06)] relative group overflow-hidden cursor-pointer text-left"
-                      id="card-lipid"
-                    >
-                      <div className="absolute -right-8 -top-8 p-4 opacity-[0.03] group-hover:opacity-[0.07] transition-all duration-500 transform group-hover:scale-110">
-                        <LucideIcon name={proc.iconName} size={130} />
-                      </div>
-                      <div className="flex justify-between items-start mb-5 relative z-10">
-                        <div>
-                          <h3 className="font-serif text-[24px] font-extrabold text-[#1B365D] group-hover:text-primary transition-colors duration-300">{proc.name}</h3>
-                          <p className="text-[11px] text-[#8E706C] font-extrabold mt-0.5 tracking-wider uppercase">{proc.marathiName}</p>
-                        </div>
-                        <span className="bg-[#FCFAF5] text-tertiary px-5 py-2 rounded-full font-serif font-extrabold text-[15.5px] border border-tertiary/10 ring-1 ring-primary/5">
-                          ₹{proc.price}
-                        </span>
-                      </div>
-                      <p className="font-sans text-[15px] text-on-surface-variant leading-relaxed line-clamp-2">
-                        {proc.description}
-                      </p>
-                      <div className="mt-5 flex items-center gap-1.5 text-xs text-primary font-bold uppercase tracking-wider">
-                        <span>Preparation Details</span>
-                        <ArrowRight size={13} className="transform group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
-                      </div>
-                    </motion.div>
-                  );
-                })()
-              )}
+
 
             </div>
 
