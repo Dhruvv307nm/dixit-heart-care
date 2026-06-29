@@ -72,7 +72,7 @@ const FAQS: FAQItem[] = [
   },
   {
     question: "Which doctors will be consulting me?",
-    answer: "Our medical crew rests on the generation-led excellence of the esteemed Dixit family: Dr. Shirish Dixit (highly respected senior cardiologist with decades of general diagnostic practice), Dr. Alka Dixit, and Dr. Rohit Dixit (Consultant Interventional Cardiologist bringing cutting-edge interventional and non-invasive science). Every doctor brings rich, empathetic ethics to cardiac diagnostic routines."
+    answer: "You will be consulting with Dr. Rohit Dixit, an expert Consultant Interventional Cardiologist, along with Assistant Dr. Dhananjay. Together, they bring cutting-edge interventional and non-invasive cardiovascular science and a deeply empathetic approach to patient care."
   },
   {
     question: "Does Dixit Heart Care Centre prescribe excessive healthcare tests or commercially backed medicine?",
